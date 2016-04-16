@@ -53,7 +53,7 @@ array(2) {
   }
 }
 
---------------------------------------
+============
 
 $searchData = \Assistance\ArrayTools\ArrayTools::search(
 	[
@@ -93,7 +93,7 @@ array(1) {
   }
 }
 
---------------------------------------
+============
 
 $pluckData = \Assistance\ArrayTools\ArrayTools::pluck(
 	[
