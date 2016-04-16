@@ -1,6 +1,6 @@
 <?php
 
-namespace Assistance\ErrorsTrait;
+namespace Assistance\ArrayTools;
 
 class ArrayTools
 {       
