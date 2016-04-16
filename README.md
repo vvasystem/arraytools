@@ -36,6 +36,24 @@ $groupData = \Assistance\ArrayTools\ArrayTools::group(
 );
 
 var_dump($groupData);
+array(2) {
+  [0]=>
+  array(2) {
+    ["name"]=>
+    string(5) "name1"
+    ["sum"]=>
+    int(27)
+  }
+  [1]=>
+  array(2) {
+    ["name"]=>
+    string(5) "name2"
+    ["sum"]=>
+    int(20)
+  }
+}
+
+--------------------------------------
 
 $searchData = \Assistance\ArrayTools\ArrayTools::search(
 	[
@@ -63,6 +81,19 @@ $searchData = \Assistance\ArrayTools\ArrayTools::search(
 );
 
 var_dump($searchData);
+array(1) {
+  [1]=>
+  array(3) {
+    ["name"]=>
+    string(5) "name1"
+    ["type"]=>
+    string(5) "type1"
+    ["sum"]=>
+    int(12)
+  }
+}
+
+--------------------------------------
 
 $pluckData = \Assistance\ArrayTools\ArrayTools::pluck(
 	[
@@ -87,5 +118,13 @@ $pluckData = \Assistance\ArrayTools\ArrayTools::pluck(
 );
 
 var_dump($pluckData);
+array(3) {
+  [0]=>
+  string(5) "type2"
+  [1]=>
+  string(5) "type1"
+  [2]=>
+  string(5) "type3"
+}
 
 ```
