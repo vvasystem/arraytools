@@ -36,6 +36,7 @@ $groupData = \Assistance\ArrayTools\ArrayTools::group(
 );
 
 var_dump($groupData);
+/*
 array(2) {
   [0]=>
   array(2) {
@@ -52,8 +53,10 @@ array(2) {
     int(20)
   }
 }
+*/
 
-============
+//------------------------------------------------------
+
 
 $searchData = \Assistance\ArrayTools\ArrayTools::search(
 	[
@@ -81,6 +84,7 @@ $searchData = \Assistance\ArrayTools\ArrayTools::search(
 );
 
 var_dump($searchData);
+/*
 array(1) {
   [1]=>
   array(3) {
@@ -92,8 +96,9 @@ array(1) {
     int(12)
   }
 }
+*/
 
-============
+//------------------------------------------------------
 
 $pluckData = \Assistance\ArrayTools\ArrayTools::pluck(
 	[
@@ -118,6 +123,7 @@ $pluckData = \Assistance\ArrayTools\ArrayTools::pluck(
 );
 
 var_dump($pluckData);
+/*
 array(3) {
   [0]=>
   string(5) "type2"
@@ -126,5 +132,6 @@ array(3) {
   [2]=>
   string(5) "type3"
 }
+*/
 
 ```
