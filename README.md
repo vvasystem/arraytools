@@ -3,7 +3,14 @@ Array Tools
 
 Some tools for PHP array.
 
-How to use?
+## Install
+
+```
+composer require vvasystem/arraytools
+
+```
+
+## How to use?
 
 ```php
 //...
