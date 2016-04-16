@@ -92,7 +92,7 @@ class ArrayTools
             
         });
         
-        if ('' !== $orderBy) && array_key_exists($orderBy, $array[0])) {
+        if ('' !== $orderBy && array_key_exists($orderBy, $array[0])) {
             usort($result, function ($a, $b) use($orderBy) {
                 if ($a[$orderBy] == $b[$orderBy]) {
                   return 0;
